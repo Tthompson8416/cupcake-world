@@ -35,7 +35,33 @@
       </header>  
 
       <!-- hero/jumbotron -->
-      <section></section>
+      <section>
+        <div>
+            <h3>Place Your Order Today</h3>
+            <p>Fill Out This Form and We Will Contact You to Place Your Order</p>
+            <!-- Add form element -->
+            <form>
+              <label for="name">Enter full name:</label>
+              <input type="text" placeholder="Your Name" name="name" id="name" />
+              <label for="email">Enter email address:</label>
+              <input type="email" placeholder="Email Address" name="email" id="email" />
+              <label for="phone">Enter a telephone number:</label>
+              <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+              <p>
+                Have you ordered from our kitchen before?
+                <input type="radio" name="ordered-confirm" id="ordered-yes" />
+                <label for="ordered-yes">Yes</label>
+                <input type="radio" name="ordered-confirm" id="ordered-no" />
+                <label for="ordered-no">No</label>
+                </p>
+                <p>
+                  <label for="checkbox" >I acknowledge that I am at least 18 years of age.</label>
+                  <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <button type="submit">Sign Up!</button>
+            </form>
+        </div>
+      </section>
       
       <!-- "what we do" section -->
       <section>
@@ -60,6 +86,10 @@
       <!-- "footer" section -->
       <footer>
         <h2>&#10084;&#65039; Made with love by Cupcake World</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />
+            &copy; 2023 Cupcake World, Inc.
+        </div>
       </footer>
 
     </body>
