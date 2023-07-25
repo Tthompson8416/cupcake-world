@@ -1,16 +1,16 @@
-# Run Buddy, Inc
+# Cupcake World, Inc
 
 ## Purpose
-A website that offers fitness training services. 
+A website that offers cupcake preparation services. 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://tthompson8416.github.io/cupcake-world/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by Tanesia
 
-### ©️2019 Run Buddy, Inc 
+### ©️2023 Cupcake World, Inc 
