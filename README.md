@@ -1,4 +1,4 @@
-# cupcake-world
+# Run Buddy Inc.
 
 ## Purpose
 A website that offers cupcake design services
