@@ -58,14 +58,20 @@
               <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
               <p>
                 Have you ordered from our kitchen before?
-                <input type="radio" name="ordered-confirm" id="ordered-yes" />
-                <label for="ordered-yes">Yes</label>
-                <input type="radio" name="ordered-confirm" id="ordered-no" />
-                <label for="ordered-no">No</label>
+                <span class="radio-wrapper">
+                  <input type="radio" name="ordered-confirm" id="ordered-yes" />
+                  <label for="ordered-yes">Yes</label>
+                </span>
+                <span class="radio-wrapper">
+                  <input type="radio" name="ordered-confirm" id="ordered-no" />
+                  <label for="ordered-no">No</label>
+                </span>
                 </p>
                 <p>
-                  <label for="checkbox" >I acknowledge that I am at least 18 years of age.</label>
-                  <input type="checkbox" name="age-confirm" id="checkbox" />
+                  <span class="checkbox-wrapper">
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                    <label for="checkbox" >I acknowledge that I am at least 18 years of age.</label>
+                  </span>
                 </p>
                 <button type="submit">Sign Up!</button>
             </form>
