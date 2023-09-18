@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <title>Cupcake World</title>
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <meta name="viewport" content="width=devive-width, initial-scale=1.0" />
     </head>
 
     <body>
@@ -36,6 +37,14 @@
 
       <!-- hero/jumbotron -->
       <section class="hero">
+
+        <div class="hero-cta">
+          <h2>Let's Get Baking!</h2>
+          <p>
+            Lorem seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
+          </p>
+        </div>
+        
         <div class="hero-form">
             <h3>Place Your Order Today</h3>
             <p>Fill Out This Form and We Will Contact You to Place Your Order</p>
@@ -49,14 +58,20 @@
               <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
               <p>
                 Have you ordered from our kitchen before?
-                <input type="radio" name="ordered-confirm" id="ordered-yes" />
-                <label for="ordered-yes">Yes</label>
-                <input type="radio" name="ordered-confirm" id="ordered-no" />
-                <label for="ordered-no">No</label>
+                <span class="radio-wrapper">
+                  <input type="radio" name="ordered-confirm" id="ordered-yes" />
+                  <label for="ordered-yes">Yes</label>
+                </span>
+                <span class="radio-wrapper">
+                  <input type="radio" name="ordered-confirm" id="ordered-no" />
+                  <label for="ordered-no">No</label>
+                </span>
                 </p>
                 <p>
-                  <label for="checkbox" >I acknowledge that I am at least 18 years of age.</label>
-                  <input type="checkbox" name="age-confirm" id="checkbox" />
+                  <span class="checkbox-wrapper">
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                    <label for="checkbox" >I acknowledge that I am at least 18 years of age.</label>
+                  </span>
                 </p>
                 <button type="submit">Sign Up!</button>
             </form>
@@ -65,49 +80,87 @@
       
       <!-- "what we do" section -->
       <section id="what-we-do" class="intro">
+       <div class="flex-row"> 
         <h2 class="section-title primary-border">What We Do</h2>
-        <P>
+       </div> 
+       <div class="flex-row">
+        <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat corrupti tempore est ipsum eveniet hic debitis ipsam corporis at ea, perferendis, eum aspernatur autem fugiat fuga labore quae ullam deserunt?
-        </P>
+        </p>
+       </div> 
       </section>
 
       <!-- "what you do" section -->
       <section id="what-you-do" class="steps">
+       <div class="flex-row">
         <h2 class="section-title secondary-border">What You Do</h2>
+       </div>
 
-        <div>
-          <img src="./assets/images/step-1.svg" alt="">
-          <h3>Step 1: <span>Fill Out the Form Above</span></h3>
-          <p>You're already here, so why not?</p>
+        <div class="step">
+          <h3>Step 1.</h3>
+          <div class="step-info">
+            <div class="step-img">
+              <img src="./assets/images/step-1.svg" alt="">
+            </div>
+            <div class="step-text">  
+              <h4>Fill Out the Form Above</h4>
+              <p>You're already here, so why not?</p>
+            </div>
+          </div>
         </div>
 
-        <div>
-          <img src="./assets/images/step-2.svg" alt="">
-          <h3>Step 2: <span>Consult with One of Or Bakery Experts</span></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum sapiente iusto rerum sunt, repellat corrupti. Qui commodi nesciunt est cupiditate. Voluptates eaque perspiciatis voluptatem dignissimos sunt beatae, quo eum.</p>
+        <div class="step">
+          <h3>Step 2.</h3>
+          <div class="step-info">
+            <div class="step-img">
+              <img src="./assets/images/step-2.svg" alt="">                  
+            </div>
+            <div class="step-text">
+              <h4>Consult with One of Or Bakery Experts</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum sapiente iusto rerum sunt, repellat corrupti. Qui commodi nesciunt est cupiditate. Voluptates eaque perspiciatis voluptatem dignissimos sunt beatae, quo eum.</p>
+           </div>
+          </div>
         </div>
 
-        <div>
-          <img src="./assets/images/step-3.svg" alt="">
-          <h3>Step 3: <span>Get Your Order Cooking</span></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores ut porro iure nulla animi ducimus. Voluptatum officiis id accusantium odio dicta debitis totam illo iste assumenda, ad cupiditate facilis!</p>
+        <div class="step">
+          <h3>Step 3.</h3>
+          <div class="step-info">
+            <div class="step-img">
+              <img src="./assets/images/step-3.svg" alt="">
+            </div>
+            <div class="step-text">
+              <h4>Get Your Order Cooking</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iusto dicta et asperiores eius molestiae nulla explicabo est nihil vel sed eligendi tenetur, ea officia quaerat. Blanditiis vitae ratione repudiandae.</p>
+            </div>
+          </div>
         </div>
 
-        <div>
-          <img src="./assets/images/step-4.svg" alt="">
-          <h3>Step 4: <span>Check on Your Order Status</span></h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, consequatur animi quisquam reiciendis, dolor omnis doloribus illum ipsam cupiditate mollitia laudantium. Aspernatur consequatur laborum, earum veritatis totam sequi dicta architecto?</p>
+        <div class="step">
+          <h3>Step 4.</h3>
+          <div class="step-info">
+            <div class="step-img">
+              <img src="./assets/images/step-4.svg" alt="">
+            </div>
+            <div class="step-text">
+              <h4>Check on Your Order Status</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In impedit incidunt nemo assumenda quam accusamus accusantium facere laborum nesciunt. Cum quas inventore at placeat distinctio ratione voluptatem? Minima, officiis. Beatae!</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- "meet the chefs" section -->>
-      <section id="your-chefs" class="chefs">
+      <section id="your-chefs">
+       <div class="flex-row"> 
         <h2 class="section-title primary-border">Meet the Chefs</h2>
+       </div> 
+
+       <div class="chefs">       
         <article class="chef">
           <img src="./assets/images/chef 1.jpg" alt="Arron Stephens prepping a dessert" />
-          <div class="chef-bio text-left">
-            <h3>Arron Stephens</h3>
-            <h4>Pastry Chef</h4>
+          <div class="chef-bio">
+            <h3 class="chef-name">Arron Stephens</h3>
+            <h4 class="chef-role">Pastry Chef</h4>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur blanditiis recusandae ex nesciunt provident officia numquam. Dolorem quam delectus iste, et accusantium ipsa? Ut, magnam temporibus non maxime corporis nisi.
             </p>
@@ -115,42 +168,42 @@
         </article>
 
         <article class="chef">
-          <div class="chef-bio text-right">
-            <h3>Joanna Gill</h3>
-            <h4>Pastry Chef</h4>
+          <img src="./assets/images/chef 1.jpg" alt="Peter Gill frosting cupcakes" />
+          <div class="chef-bio">
+            <h3 class="chef-name">Peter Gill</h3>
+            <h4 class="chef-role">Pastry Chef</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, qui voluptatibus mollitia, quasi adipisci earum quo nihil dolore consectetur, vel corrupti iste quas saepe eius quidem libero consequuntur tempore minima?</p>     
           </div>
-          <img src="./assets/images/chef 2.jpg" alt="Joanna Gill frosting cupcakes" />
         </article>
 
         <article class="chef">
-          <img src="./assets/images/chef 3.jpg" alt="Harry posing next to counter"
-          <div class="chef-bio text-left"
-          <h3>Harry Smith</h3>
-          <h4>Pastry Chef</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel distinctio iste, quo rem fugit ducimus, corrupti aspernatur perferendis blanditiis libero temporibus eius odit nihil officiis unde! Doloremque, dicta numquam.</p>
+          <img src="./assets/images/chef 1.jpg" alt="Harry posing next to counter" />
+          <div class="chef-bio">
+            <h3 class="chef-name">Harry Smith</h3>
+            <h4 class="chef-role">Pastry Chef</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel distinctio iste, quo rem fugit ducimus, corrupti aspernatur perferendis blanditiis libero temporibus eius odit nihil officiis unde! Doloremque, dicta numquam.</p>
+          </div>
         </article>
+       </div> 
       </section>
 
 
 
       <!-- "location" section -->
       <section id="location" class="contact">
+       <div class="flex-row"> 
         <h2 class="section-title secondary-border">Location</h2>
-        <div class="contact-info">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.5725882426223!2d-77.46932588798205!3d37.54157142544167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1115e285dded5%3A0x635babde89b0873b!2s1735%20Claiborne%20St%2C%20Richmond%2C%20VA%2023220!5e0!3m2!1sen!2sus!4v1688583131663!5m2!1sen!2sus" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-          <div>
-            <h3>Cupcake World</h3>
+       </div> 
+
+       <div class="contact-info">
+        <div>
+          <h3>Cupcake World</h3>
             <p>
             Any questions or concerns before signing up?
             <br/>
             Let us know and we'll be happy to talk to you!
            </p>
+
            <address>
             1735 Claiborne Street <br/>
             Some Town, Va <br/>
@@ -158,7 +211,34 @@
             P: 555.Cupcake (555.287.2253)<br/>
             E: <a href="mailto:info@cupcakeworld.io">info@cupcakeworld.io</a>
            </address>
+
           </div>
+
+          <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form>
+              <label for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" placeholder="Your Name" />
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" placeholder="Message"></textarea>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.5725882426223!2d-77.46932588798205!3d37.54157142544167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1115e285dded5%3A0x635babde89b0873b!2s1735%20Claiborne%20St%2C%20Richmond%2C%20VA%2023220!5e0!3m2!1sen!2sus!4v1688583131663!5m2!1sen!2sus" 
+            </iframe>
+
+
+          <div class="contact-info">
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            
+          
+          </div>
+        
         </div>  
       </section>
 
